@@ -1,0 +1,321 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	width: 100%;
+	height: 1800px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.box1 {
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.box1 .logo {
+	width: 230px;
+	height: 100px;
+	float: left;
+}
+
+.logo>img {
+	margin-top: 22px;
+}
+
+.box .boxa {
+	width: 650px;
+	height: 100px;
+	float: right;
+}
+
+.boxa .phone {
+	width: 650px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 446px;
+}
+
+.boxa .sy {
+	width: 650px;
+	height: 20px;
+}
+
+.sy li {
+	display: inline;
+	float: left;
+	margin-left: 38px;
+}
+
+.sy li a {
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+
+.sy li:hover a {
+	display: block;
+	color: red;
+}
+
+.box8 {
+	width: 100%;
+	height: 140px;
+	background: black;
+	background-image: url(../images/footer_bg.png);
+	margin-top: 60px;
+}
+
+.box8 .box8a {
+	width: 1200px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+.box8a1 {
+	width: 1200px;
+	height: 70px;
+}
+
+.box8a2 {
+	width: 1200px;
+	height: 70px;
+}
+
+.box8a1 div:first-child {
+	width: 480px;
+	height: 70px;
+	float: left;
+}
+
+.box8a1 div:nth-child(2) {
+	width: 192px;
+	height: 70px;
+	float: right;
+}
+
+.box8a1 div ul li {
+	width: 80px;
+	height: 70px;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	font-size: 14px;
+}
+
+.box8a2 div:first-child {
+	width: 480px;
+	height: 70px;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	font-size: 14px;
+}
+
+.box8a2 div:nth-child(2) {
+	width: 192px;
+	height: 70px;
+	float: right;
+	text-align: right;
+	line-height: 70px;
+	color: white;
+	font-size: 14px;
+}
+
+.box8a1 div:nth-child(2) p {
+	width: 80px;
+	height: 70px;
+	float: left;
+	line-height: 70px;
+	text-align: center;
+}
+
+.box8a1 div:nth-child(2) .hao1 {
+	width: 112px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 0;
+	display: inline-block;
+	color: white;
+}
+
+.box8a1 div:nth-child(2) .hao {
+	border: 1px solid white;
+	width: 112px;
+	height: 30px;
+	margin-left: 80px;
+	margin-top: -50px;
+	background-image: url(../images/select.png);
+	background-repeat: no-repeat;
+	background-position-x: right;
+}
+
+.box3 {
+	width: 100%;
+	height: 52px;
+	margin: 0 auto;
+}
+
+.box3 .box3a {
+	width: 1200px;
+	height: 52px;
+	margin-left: 1000px;
+}
+
+.box3 .box3a div {
+	width: 164px;
+	height: 52px;
+	color: #999999;
+	font-size: 12px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.box .box7 {
+	width: 158px;
+	height: 52px;
+	position: fixed;
+	left: 20px;
+	bottom: 200px;
+}
+
+.small {
+	width: 48px;
+	height: 250px;
+	float: right;
+	position: fixed;
+	right: 20px;
+	top: 350px;
+}
+
+.small li:first-child {
+	background: url(../images/ab8.png) no-repeat;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 70px;
+	color: white;
+	font-size: 14px;
+}
+
+.small a {
+	color: white;
+	text-decoration: none;
+}
+
+.small:hover a {
+	display: block;
+	color: blue;
+}
+
+.box3 {
+	width: 1526px;
+	height: 52px;
+	margin: 0 auto;
+}
+
+.posiation .posiation1 {
+	width: 1200px;
+	height: 52px;
+	margin: 0 auto;
+}
+
+.posiation .posiation1 div {
+	width: 190px;
+	height: 52px;
+	color: #999999;
+	font-size: 12px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.box4 .box4a {
+	float: left;
+}
+
+.box4 .box4a li {
+	width: 200px;
+	height: 40px;
+	background: #EFEFEF;
+	line-height: 40px;
+	margin-top: 2px;
+	overflow: hidden;
+}
+
+.box4 p>a {
+	padding-left: 35px;
+}
+
+.box4>.box4a>ul>li .heng {
+	padding-left: 35px;
+}
+
+.box4 .box4a li:first-child {
+	width: 200px;
+	height: 100px;
+	background: #1861c5;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.box4 li div:first-child {
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
+	color: white;
+	margin-top: 30px;
+	line-height: 30px;
+	margin-left: 35px;
+}
+
+.box4 li div:first-child>h2>a {
+	color: white;
+}
+
+.box4 li div:last-child {
+	width: 50px;
+	height: 20px;
+	line-height: 5px;
+}
+
+.box4 li a {
+	color: black;
+}
+
+.box4 li:nth-child(2):hover a,
+.box4 li:nth-child(3):hover a,
+.box4 li:nth-child(4):hover a {
+	display: block;
+	background: #1B82EB;
+	color: white;
+	background-image: url(../images/navHover.png);
+	background-position: 18px 20px;
+	background-repeat: no-repeat;
+}
+
+.box4a li:nth-child(5) {
+	width: 200px;
+	height: 70px;
+	margin-top: 30px;
+}
+.box8a1 a{
+	color: white;
+}
+.box8a1 a:hover{
+	color: blue;
+}

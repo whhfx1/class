@@ -1,0 +1,199 @@
+.box2 {
+	width: 100%;
+	height: 480px;
+	background: url(../images/banner01.jpg) no-repeat;
+	background-size: 100% 480px;
+	overflow: hidden;
+}
+
+.box2 .left {
+	width: 70px;
+	height: 70px;
+	background: transparent;
+	margin-top: 200px;
+	margin-left: 70px;
+	float: left;
+}
+
+.box2 .right {
+	width: 70px;
+	height: 70px;
+	background: transparent;
+	margin-right: 70px;
+	margin-top: 200px;
+	float: right;
+}
+
+li {
+	list-style: none;
+}
+
+.center {
+	width: 1200px;
+	height: 252px;
+	margin: 52px auto;
+}
+
+.center li {
+	width: 380px;
+	height: 252px;
+	float: left;
+	/*background: gold;*/
+}
+
+.center li:nth-child(2),
+.center li:nth-child(3) {
+	margin-left: 22px;
+}
+
+.center .gy {
+	width: 380px;
+	height: 42px;
+}
+
+.center .gy .gy1 {
+	float: left;
+	display: inline;
+}
+
+span {
+	float: right;
+	line-height: 42px;
+	font-size: 12px;
+}
+
+.center .gy .gy2 {
+	width: 380px;
+	height: 106px;
+}
+
+.gy3 {
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.xw {
+	width: 380px;
+	height: 100px;
+}
+
+.xw div:first-child {
+	width: 230px;
+	height: 96px;
+	font-size: 12px;
+	line-height: 30px;
+	float: left;
+}
+
+.xw .xwa {
+	float: right;
+}
+
+.xw1 {
+	width: 380px;
+	height: 90px;
+	line-height: 30px;
+	font-size: 12px;
+	margin-top: 12px;
+}
+
+.lx {
+	width: 380px;
+	height: 88px;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.box5 {
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.box5 .cp {
+	float: left;
+	width: 170px;
+	height: 40px;
+}
+
+.box5 .more {
+	width: 170px;
+	height: 40px;
+	float: right;
+	text-align: center;
+}
+
+.box5>.more>.fh {
+	width: 85px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+}
+
+.box5>.more>.lj {
+	width: 85px;
+	height: 30px;
+	float: right;
+	text-align: center;
+	border-radius: 20px;
+	background: red;
+	line-height: 30px;
+}
+
+.box6 {
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.box6>ul>li {
+	width: 290px;
+	height: 200px;
+	float: left;
+	margin-right: 12px;
+	background: palegreen;
+}
+
+.box6>ul>li:first-child {
+	background: url(../images/1478327416101202.jpg) no-repeat;
+	background-size: 290px 200px;
+}
+
+.box6>ul>li:nth-child(2) {
+	background: url(../images/1478327390539274.jpg) no-repeat;
+	background-size: 290px 200px;
+}
+
+.box6>ul>li:nth-child(3) {
+	background: url(../images/1478327253100991.jpg) no-repeat;
+	background-size: 290px 200px;
+}
+
+.box6>ul>li:nth-child(4) {
+	background: url(../images/1478327295252467.jpg) no-repeat;
+	background-size: 290px 200px;
+}
+
+.box6>ul>li:last-child {
+	margin-right: 0;
+}
+
+.box6>ul>li>div {
+	width: 290px;
+	height: 30px;
+	background: rgba(30, 30, 30, 0.6);
+	margin-top: 170px;
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.box6 ul li:hover div {
+	display: block;
+	color: blue;
+}
+
+.center li:hover div {
+	display: block;
+	color: blue;
+}

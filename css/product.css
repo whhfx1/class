@@ -1,0 +1,117 @@
+.box2 {
+	width:  100%;
+	height: 240px;
+	margin: 0 auto;
+	background: url(../images/1478226825103039.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.box3 {
+	width: 1526px;
+	height: 52px;
+	margin: 0 auto;
+}
+
+.box3 .box3a {
+	width: 1200px;
+	height: 52px;
+	margin: 0 auto;
+}
+
+.box3 .box3a div {
+	width: 164px;
+	height: 52px;
+	color: #999999;
+	font-size: 12px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.box4 {
+	width: 1200px;
+	height: 560px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.box4b {
+	width: 968px;
+	height: 514px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.box4 .box4b li {
+	width: 308px;
+	height: 230px;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.box4b img {
+	width: 308px;
+	height: 202px;
+	;
+}
+
+.box4 .box4b li:hover {
+	color: blue;
+}
+
+.box4 .box4b li:nth-child(4),
+.box4 .box4b li:nth-child(5),
+.box4 .box4b li:nth-child(6) {
+	margin-top: 48px;
+}
+
+.box5 {
+	width: 180px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+.box5 div:nth-child(2) {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	float: left;
+	margin-top: 30px;
+}
+
+.box5 div:nth-child(3) {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	float: left;
+	margin-top: 30px;
+}
+
+.box5 div:nth-child(1),
+.box5 div:nth-child(4) {
+	width: 57px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	margin-top: 30px;
+	color: black;
+}
+
+.box5 a {
+	text-decoration: none;
+	color: black;
+}
+
+.box5 div:hover a {
+	display: block;
+	background-color: red;
+}
+
+.box4b img:hover {
+	display: block;
+	width: 324px;
+	height: 210px;
+	;
+}
